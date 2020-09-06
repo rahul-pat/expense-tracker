@@ -16,7 +16,7 @@ function History(props) {
     }
 
     return (
-        <Col className = "mt-4 col-5">
+        <Col className = "mt-4 col-sm-5">
             <h5>History </h5>
             <hr />
             <ListGroup>

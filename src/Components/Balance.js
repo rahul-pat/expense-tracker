@@ -10,7 +10,7 @@ function Balance(props) {
     }
 
     return (
-        <Col className = "mt-4 col-5">
+        <Col className = "mt-4 col-sm-5 text-center">
             <h4>Balance: </h4>
             <h2>{balance.toFixed(2)}$</h2>
         </Col>

@@ -24,7 +24,7 @@ function IncomeExpense(props) {
 
 
     return (
-        <Col className="mt-4 col-5">
+        <Col className="mt-4 col-sm-5">
             <Container>
                 <Row className="bg-light border">
                     <Col className="text-center mt-2">

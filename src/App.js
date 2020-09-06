@@ -18,7 +18,7 @@ function App() {
   // Keeps track of transaction entered in the input box
   const [task, setTask] = useState('');
   // Keeps track of the amount entered in input box
-  const [amount, setAmount] = useState(0);
+  const [amount, setAmount] = useState();
 
   /* Delete transaction function: takes the id of the transaction to delete and 
   create a new array using the filter method that is passed to updateTransactionList */
@@ -42,7 +42,7 @@ function App() {
                 <History transactions={transactions} delete={deleteTransaction} />
           </Row>
           <Row className="justify-content-center">
-              <Col className="mt-4 col-5">
+              <Col className="mt-4 col-sm-5">
               <h5>Add new transaction </h5>
             <hr />
             <Form onSubmit={(e) => {
