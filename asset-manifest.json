@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/expense-tracker/static/css/main.9967f66b.chunk.css",
-    "main.js": "/expense-tracker/static/js/main.83b364d2.chunk.js",
-    "main.js.map": "/expense-tracker/static/js/main.83b364d2.chunk.js.map",
+    "main.js": "/expense-tracker/static/js/main.8e20698b.chunk.js",
+    "main.js.map": "/expense-tracker/static/js/main.8e20698b.chunk.js.map",
     "runtime-main.js": "/expense-tracker/static/js/runtime-main.91d22b83.js",
     "runtime-main.js.map": "/expense-tracker/static/js/runtime-main.91d22b83.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/expense-tracker/static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.62b389c3.chunk.js": "/expense-tracker/static/js/2.62b389c3.chunk.js",
     "static/js/2.62b389c3.chunk.js.map": "/expense-tracker/static/js/2.62b389c3.chunk.js.map",
     "index.html": "/expense-tracker/index.html",
-    "precache-manifest.b16a07e7181844bab1cb1deed6d93f61.js": "/expense-tracker/precache-manifest.b16a07e7181844bab1cb1deed6d93f61.js",
+    "precache-manifest.dcab4769d777e651b6b40b5501ce900a.js": "/expense-tracker/precache-manifest.dcab4769d777e651b6b40b5501ce900a.js",
     "service-worker.js": "/expense-tracker/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/expense-tracker/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.9967f66b.chunk.css.map": "/expense-tracker/static/css/main.9967f66b.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.62b389c3.chunk.js",
     "static/css/main.9967f66b.chunk.css",
-    "static/js/main.83b364d2.chunk.js"
+    "static/js/main.8e20698b.chunk.js"
   ]
 }
