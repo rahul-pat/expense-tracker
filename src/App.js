@@ -12,11 +12,16 @@ import { Container, Row, Col, Form, Button } from 'react-bootstrap'
 
 
 function App() {
-  // States
+  // States:
+  // List of all transactions
   const [transactions, updateTransactionList] = useState([]);
+  // Keeps track of transaction entered in the input box
   const [task, setTask] = useState('');
+  // Keeps track of the amount entered in input box
   const [amount, setAmount] = useState(0);
 
+  /* Delete transaction function: takes the id of the transaction to delete and 
+  create a new array using the filter method that is passed to updateTransactionList */
   function deleteTransaction(id) {
     const newTransactions = transactions.filter((item) => item.id  !== id);
     updateTransactionList(newTransactions);

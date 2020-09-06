@@ -5,6 +5,7 @@ function IncomeExpense(props) {
 
     let income = 0;
 
+    //Calculates income
     for(let i = 0; i < props.transactions.length; i++) {
         if (props.transactions[i].amount > 0) {
             income = income + Number(props.transactions[i].amount);
@@ -12,7 +13,8 @@ function IncomeExpense(props) {
     };
 
     let expense = 0;
-
+    
+    // Calculates expenses
     for(let i = 0; i < props.transactions.length; i++) {
         if (props.transactions[i].amount < 0) {
             expense = expense + Number(props.transactions[i].amount);

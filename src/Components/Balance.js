@@ -4,10 +4,10 @@ import Col from 'react-bootstrap/Col';
 function Balance(props) {
     let balance = 0;
 
+    // Loop through all the transactions in props and add total balance
     for (let i = 0; i < props.transactions.length; i++) {
         balance = balance + Number(props.transactions[i].amount);
     }
-
 
     return (
         <Col className = "mt-4 col-5">
